@@ -57,9 +57,9 @@ class Wagon {
             let currentPassenger = this.passengers[i]
             if (currentPassenger.isHealthy === false){
                 }  else {
-                    return true
+                    return true;
             }
-        }
+        }  return false;
     }
 
     totalFood(){
